@@ -16,7 +16,7 @@ spec:
       containers:
         - name: podset-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: spursyy/podset-operator
           command:
           - podset-operator
           imagePullPolicy: Always
